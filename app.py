@@ -1,4 +1,7 @@
 import streamlit as st
+import openai
+
+openai.api_key = st.secrets["mykey"]
 
 # Title and Heading
 st.title("My First Streamlit App")
